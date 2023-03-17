@@ -19,5 +19,11 @@ const colore = prompt('qual è il tuo colore preferito?')
 
 let pssw = nome + cognome  + colore 
 
-console.log(pssw)
+console.log('psww',pssw)
+
+// voglio eliminari possibili spazi vuoti
+
+let psswTrimmata = pssw.replace(/\s+/, '')
+
+console.log('psww senza spazi vuoti', psswTrimmata)
 
