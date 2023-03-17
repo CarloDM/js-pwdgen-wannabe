@@ -23,9 +23,11 @@ let pssw = nome + cognome  + colore + num
 
 console.log('psww',pssw)
 
-// voglio eliminari possibili spazi 
+// voglio eliminare possibili spazi tra le parole
 
 let psswTrimmata = pssw.replace(/\s+/g, '')
 
 console.log('psww senza spazi', psswTrimmata)
+
+document.getElementById('password').innerHTML = psswTrimmata;
 
