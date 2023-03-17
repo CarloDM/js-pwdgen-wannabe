@@ -17,13 +17,15 @@ const cognome = prompt('qual è il tuo cognome?')
 
 const colore = prompt('qual è il tuo colore preferito?')
 
-let pssw = nome + cognome  + colore 
+const num = "23"
+
+let pssw = nome + cognome  + colore + num
 
 console.log('psww',pssw)
 
-// voglio eliminari possibili spazi vuoti
+// voglio eliminari possibili spazi 
 
-let psswTrimmata = pssw.replace(/\s+/, '')
+let psswTrimmata = pssw.replace(/\s+/g, '')
 
-console.log('psww senza spazi vuoti', psswTrimmata)
+console.log('psww senza spazi', psswTrimmata)
 
